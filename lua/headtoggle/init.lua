@@ -36,7 +36,7 @@ M.switch_file = function(split)
 end
 
 M.setup = function()
-	vim.keymap.set("n", "<leader>cT", function()
+	vim.keymap.set("n", "<leader>ct", function()
 		require("headtoggle").switch_file()
 	end, { desc = "code [T]oggle .h/.cpp" })
 	vim.keymap.set("n", "<leader>cv", function()
